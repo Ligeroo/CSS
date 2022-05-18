@@ -1,0 +1,234 @@
+@charset "Utf-8";
+
+.MenuLogo {
+  display: flex;
+  justify-content: center;
+  margin: 0px 30% 0px 30%;
+  background-color: rgb(18, 44, 196);
+  background-image: url(imagens/fundo.jpg);
+  background-size: cover;
+}
+
+body {
+  background-color: blue; 
+  background-size: cover;
+  margin: 0px auto;
+  padding-bottom: 30px;
+  background-attachment: fixed;
+}
+
+* {
+  list-style-type: none;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.MenuDeLinks li {
+  display: flex;
+  border-radius: 2px;
+  background-color: rgb(0, 0, 0);
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+  height: 10px;
+  width: 30%;
+}
+
+.MenuDeLinks a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.MenuDeLinks {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 20px;
+  /* margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;*/
+}
+
+.MenuDeLinks li:hover {
+  background-color: rgb(0, 17, 255);
+}
+
+.textoprincipal {
+  background-image: url(imagens/fundo.jpg);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 45px;
+  background-color: white;
+}
+
+.conteudo .MenuDeLinks {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+}
+
+.conteudo p {
+  text-align: center;
+}
+
+.conteudo p {
+  background-color: white;
+  height: 100%;
+  padding: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.conteudolista,
+.conteudolista2 {
+  background-color: white;
+  height: 100%;
+  padding: 30px;
+  margin: 0px 30% 0px 30%;
+  list-style: decimal-leading-zero;
+}
+
+.conteudolista li {
+  list-style-image: url(imagens/point.png);
+  list-style-position: inside;
+}
+
+.conteudolista2 li {
+  list-style-image: url(imagens/point.png);
+  list-style-position: inside;
+}
+
+.conteudolista2 a {
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+.conteudolista2 a:hover {
+  color: coral;
+}
+
+.conteudo img {
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.tabela {
+  display: block;
+  background-color: white;
+  width: 40%;
+  border-style: solid 1.5em;
+  margin: 0 auto;
+}
+.tabela img {
+  display: block;
+  margin: auto;
+}
+
+.tabela2 {
+  display: block;
+  background-color: white;
+  width: 60%;
+  border-style: solid 1.5em;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.textoprincipal2 {
+  background-image: url(imagens/s17Qi.jpg);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  background-color: white;
+}
+
+.MenuLogo2 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 20% 0px 20%;
+  background-color: white;
+  background-image: url(imagens/fundo2.jpg);
+  background-size: cover;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: rgb(5, 97, 235);
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 0;
+  padding: 10px;
+}
+
+.bnt {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  border-radius: 1000px;
+  color: rgb(0, 0, 0);
+  transition: all 0.6s ease-in-out 0s;
+  box-shadow: inset 0 0 20px rgb(231, 216, 0);
+}
+
+.bnt:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(129, 141, 255);
+  transform: scale(1.5) rotate(360deg);
+  box-shadow: 0 0 60px rgb(17, 112, 156);
+  cursor: grab;
+  border: 2px solid rgb(219, 133, 4);
+}
+
+.conteudolink {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+  margin: 0 30% 0 30%;
+}
+
+.conteudolink a {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  border: 2px solid rgb(22, 7, 240);
+  background: rgb(235, 8, 8);
+  padding: 0 30px 0 30px;
+}
+
+.conteudolink a:hover {
+  color: rgb(27, 27, 70);
+}
+
+
+
+.botao2 {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  
+
+
